@@ -1,5 +1,5 @@
 function insert(email, nombre, telefono){
-    const URL = "http://localhost:8000/contactos";
+    const URL = "https://api-heroku1-14f7837ede0b.herokuapp.com/contactos";
     var request = new XMLHttpRequest;
     request.open('POST',URL)
     request.setRequestHeader("Content-Type", "application/json");
