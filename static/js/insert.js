@@ -16,7 +16,7 @@ function insert(email, nombre, telefono){
         console.log("response: " + response);
         console.log("json: " + json);
         console.log("status_code: " + request.status);
-        window.location.href = "https://api-heroku1-14f7837ede0b.herokuapp.com/contactos";
+        window.location.href = "https://contactos-1-28ca5668746c.herokuapp.com/";
     }
     
 }
