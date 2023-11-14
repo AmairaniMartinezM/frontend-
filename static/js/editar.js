@@ -2,7 +2,7 @@ function editar(email, nombre, telefono){
     var respuesta = confirm("¿Estas seguro de actualizar el contacto?");
 
     if (respuesta){
-        const URL = "http://localhost:8000/contactos";
+        const URL = "https://api-heroku1-14f7837ede0b.herokuapp.com/contactos";
         var request = new XMLHttpRequest;
         request.open('PUT',URL +"/" +email,true);
         request.setRequestHeader("Content-Type", "application/json");
