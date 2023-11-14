@@ -17,7 +17,7 @@ function editar(email, nombre, telefono){
             const json = JSON.parse(response);
             console.log(json);
             console.log("status_code: " + request.status);
-            window.location.href = "../templates/index.html"
+            window.location.href = "https://contactos-1-28ca5668746c.herokuapp.com/"
         }
     }else{ 
         console.log("El usuario ha cancelado.");
