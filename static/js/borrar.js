@@ -2,7 +2,7 @@ function borrar(email){
     respuesta = confirm("¿Estas seguro de borrar el contacto?");
 
     if (respuesta){
-        const URL = "http://localhost:8000/contactos";
+        const URL = "https://api-heroku1-14f7837ede0b.herokuapp.com/contactos";
         var request = new XMLHttpRequest;
         request.open('DELETE',URL +"/" +email,true);
         request.send();
