@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,8 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0; /* Color de fondo pastel */
-            color: #333; /* Color de texto principal */
+            background-color: #f0f0f0;
+            color: #333;
             margin: 0;
             padding: 20px;
             text-align: center;
@@ -16,14 +17,14 @@
 
         label {
             display: block;
-            margin-bottom: 5px;
-            color: #666; /* Color de texto para etiquetas */
+            margin-bottom: 10px;
+            color: #555;
         }
 
         input {
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc; /* Color de borde para campos de entrada */
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #aaa;
             border-radius: 5px;
             font-size: 16px;
             width: 100%;
@@ -31,9 +32,9 @@
         }
 
         button {
-            padding: 10px 20px;
-            background-color: #66cc99; /* Color de fondo para botones */
-            color: #fff; /* Color de texto para botones */
+            padding: 12px 24px;
+            background-color: #4285f4;
+            color: #fff;
             border: none;
             border-radius: 5px;
             cursor: pointer;
@@ -41,24 +42,23 @@
         }
 
         button:hover {
-            background-color: #4da573; /* Color de fondo para botones al pasar el ratón */
+            background-color: #2d5da7;
+        }
+
+        a {
+            color: #4285f4;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 20px;
+            display: inline-block;
         }
     </style>
 </head>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactos</title>
-</head>
-<script type="text/javascript" src="../static/js/borrar_data.js"></script>
-<script type="text/javascript" src="../static/js/borrar.js"></script>
-<script>
-    var urlParams = new URLSearchParams(window.location.search);
-    var email = urlParams.get('email');
-</script>
+
 <body onload="borrar_data()">
     <a href="https://contactos-1-28ca5668746c.herokuapp.com/">Regresar</a>
     <button onclick="borrar(email)">Borrar</button>
 </body>
+
 </html>
