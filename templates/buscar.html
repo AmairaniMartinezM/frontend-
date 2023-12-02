@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,29 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5; /* Color de fondo pastel */
+            background-color: #f0f0f0; /* Color de fondo pastel */
             color: #333; /* Color de texto principal */
             margin: 0;
-            padding: 0;
+            padding: 20px;
             text-align: center;
         }
 
         h1 {
-            color: #4d4d4d; /* Color de título */
+            color: #4da573; /* Color de título */
             margin-bottom: 20px;
         }
 
         label {
             display: block;
             margin: 10px 0;
-            color: #666; /* Color de texto para etiquetas */
+            color: #555; /* Color de texto para etiquetas */
             font-size: 18px;
         }
 
         input {
             padding: 10px;
             margin-bottom: 20px;
-            border: 1px solid #ccc; /* Color de borde para campos de entrada */
+            border: 1px solid #aaa; /* Color de borde para campos de entrada */
             border-radius: 5px;
             font-size: 16px;
             width: 80%;
@@ -38,7 +39,7 @@
 
         button {
             padding: 12px 24px;
-            background-color: #66cc99; /* Color de fondo para botones */
+            background-color: #4285f4; /* Color de fondo para botones */
             color: #fff; /* Color de texto para botones */
             border: none;
             border-radius: 5px;
@@ -48,7 +49,7 @@
         }
 
         button:hover {
-            background-color: #4da573; /* Color de fondo para botones al pasar el ratón */
+            background-color: #2d5da7; /* Color de fondo para botones al pasar el ratón */
         }
 
         table {
@@ -65,20 +66,18 @@
         }
 
         th {
-            background-color: #99ccff; /* Color de fondo para encabezados de la tabla */
+            background-color: #4285f4; /* Color de fondo para encabezados de la tabla */
+            color: #fff; /* Color de texto para encabezados de la tabla */
         }
     </style>
     <script type="text/javascript" src="../static/js/get0ne.js"></script>
 </head>
-<head>
-    <title>Buscar Contactos</title>
-    <script type="text/javascript" src="../static/js/get0ne.js"></script>
-</head>
+
 <body>
     <h1>Buscar contacto</h1>
-        <label for="email">Email</label>
-        <input type="email" id="email">
-        <button value="Buscar" onclick="get_one(document.getElementById('email').value)">Buscar</button>
+    <label for="email">Email</label>
+    <input type="email" id="email">
+    <button value="Buscar" onclick="get_one(document.getElementById('email').value)">Buscar</button>
 
     <table border="1" id="table_contactos">
         <thead id="thead_contactos">
@@ -90,4 +89,5 @@
         </tbody>
     </table>
 </body>
+
 </html>
