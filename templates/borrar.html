@@ -61,17 +61,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,
+initial-scale=1.0">
     <title>Contactos</title>
 </head>
-<script type="text/javascript" src="../static/js/borrar_data.js"></script>
-<script type="text/javascript" src="../static/js/borrar.js"></script>
+<script type="text/javascript"
+src="../static/js/borrar_data.js"></script>
+<script type="text/javascript"
+src="../static/js/borrar.js"></script>
 <script>
     var urlParams = new URLSearchParams(window.location.search);
     var email = urlParams.get('email');
 </script>
-<body onload="borrar_data()">
-    <a href="https://contactos-1-28ca5668746c.herokuapp.com/">Regresar</a>
-    <button onclick="borrar(email)">Borrar</button>
+<body onload="borrar_data()"><a
+href="https://contactos-1-28ca5668746c.herokuapp.com/">Regresar</a>
+<button onclick="borrar(email)">Borrar</button>
 </body>
 </html>
